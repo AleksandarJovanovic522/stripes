@@ -1,0 +1,15 @@
+body {
+  font-family: 'Open-Sans', Helvetica, sans-serif;
+}
+p {
+  color: $gray-darker;
+  font-size: 16px;
+  line-height: 1.5;
+}
+h1,
+h2,
+.nav__link {
+  font-family: 'Bree-Serif', Helvetica, sans-serif !important;
+  color: $green;
+  font-size: 24px;
+}

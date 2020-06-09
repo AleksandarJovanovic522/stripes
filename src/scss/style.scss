@@ -1,0 +1,33 @@
+@import 'variables-colors';
+@import 'reset';
+@import 'icon-font/iconfont';
+//base
+@import 'base/fonts';
+@import 'base/typography';
+@import 'base/button';
+
+//components
+@import 'components/navigation';
+@import 'components/promo';
+@import 'components/offers';
+@import 'components/footer';
+body {
+  background-color: $gray-lighter;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 100vh;
+}
+.wrapper {
+  max-width: 980px;
+  padding: 0 20px;
+  margin: 0 auto;
+  @media screen and (max-width: 600px) {
+    max-width: 768px;
+    padding: 0 30px;
+  }
+  @media screen and (max-width: 600px) {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
